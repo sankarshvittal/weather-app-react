@@ -1,0 +1,53 @@
+.days {
+      width: 60%;
+      min-height: 100px;
+      background: #303f9f;
+      margin: 3px;
+      cursor: pointer;
+      overflow: hidden;
+      position: relative;
+
+
+
+
+      margin-left: auto;
+      margin-right: auto;
+
+      :after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 10px;
+        top: 48px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #fff;
+      }
+
+      :after {
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-bottom: 5px solid #fff;
+          border-top: none;
+        }
+    }
+
+    .temp {
+        padding: 0 0 0 15px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: center;
+
+        .min-max {
+          padding: 10px 10px;
+          font-size: 20px;
+          color: #c7cef5;
+
+          strong {
+            font-weight: bold;
+            color: #fff;
+          }
+        }
+      }
